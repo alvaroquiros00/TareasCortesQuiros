@@ -1,7 +1,7 @@
 def num_to_str(num):
     '#Verifica si el parametro es un integer'
     if type(num) != int:
-        print(101)
+        return(101)
     else:
         '#se crea un diccionario para las posibles'
         '#combinaciones para la salida'
@@ -16,7 +16,7 @@ def num_to_str(num):
 
         '#Verifica si el parametro es negativo'
         if(0 > num):
-            print(102)
+            return(102)
         else:
             '#Verifica si el parametro es menor a 20 para'
             '#utilizar el nombre completo'
@@ -37,7 +37,7 @@ def num_to_str(num):
                     return d[num // 10 * 10] + '_'+'y'+'_' + d[num % 10]
             '#Verifica si el parametro es mayor a 99'
             if (num > 99):
-                print(103)
+                return(103)
 
 
 def string_work(num):
@@ -60,11 +60,11 @@ def string_work(num):
                 '#Verifica si el parametro contiene algún número o símbolo en'
                 '#el string'
                 newstring = ''
-                print(506)
+                return(506)
                 break
-        print(newstring)
+        return(newstring)
     else:
-        print(505)
+        return(505)
 
 
 '#Errores'
