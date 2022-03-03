@@ -1,4 +1,6 @@
 import funciones_tarea_1
+# ERR4 -2.5
+# ERR5 -3 Primer test no prueba todas las minúsculas o mayúsculas
 
 def test_caract():
     assert funciones_tarea_1.string_work("abcdefghIJKLMNOPQRSTUVWXYZ") == "ABCDEFGHijklmnopqrstuvwxyz"
@@ -110,8 +112,8 @@ def test_prueba_todos():
     assert funciones_tarea_1.num_to_str(97) == "noventa_y_siete"
     assert funciones_tarea_1.num_to_str(98) == "noventa_y_ocho"
     assert funciones_tarea_1.num_to_str(99) == "noventa_y_nueve"
-    
-    
+
+
 
 
 def test_str_error():
@@ -119,5 +121,3 @@ def test_str_error():
 
 def test_num_mayor():
     assert funciones_tarea_1.num_to_str(100) == 103
-
-
